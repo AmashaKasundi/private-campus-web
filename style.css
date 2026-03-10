@@ -101,3 +101,84 @@ body {
     font-weight: bold;
     margin-top: 20px;
 }
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+}
+
+/* Registration Section Styling */
+.registration-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    color: #002366;
+    text-align: center;
+}
+
+.registration-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    border-bottom: 3px solid #002366;
+    display: inline-block;
+}
+
+/* Profile Image Circle */
+.profile-upload {
+    margin-bottom: 30px;
+}
+
+.image-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border: 3px dashed #002366;
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Form Layout */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color: #002366;
+}
+
+.submit-btn {
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #002366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.submit-btn:hover {
+    background-color: #001a4d;
+}
