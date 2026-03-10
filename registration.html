@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusPro | Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="logo">Campus<span>Pro</span></div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="registration.html">Registration</a></li>
+<li><a href="payment.html">Payment</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<section class="section">
+
+<h2>Student Registration</h2>
+
+<form id="regForm">
+
+<div class="profile-upload">
+<div class="image-placeholder" id="imagePreview">
+<span>📷</span>
+</div>
+
+<input type="file" id="imageInput" accept="image/*" hidden>
+
+<button type="button" onclick="document.getElementById('imageInput').click()">Upload Photo</button>
+</div>
+
+<div class="form-grid">
+
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Name with Initials" required>
+
+<input type="date" required>
+<input type="number" placeholder="Age" required>
+
+<input type="text" placeholder="School" required>
+<input type="text" placeholder="Address" required>
+
+<input type="text" placeholder="Home Town" required>
+
+<input type="tel" placeholder="Phone Number 1" required>
+<input type="tel" placeholder="Phone Number 2">
+
+<input type="email" placeholder="Email Address" required>
+
+</div>
+
+<button type="submit" class="submit-btn">Submit Registration</button>
+
+</form>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

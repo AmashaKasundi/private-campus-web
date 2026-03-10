@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Campus | Home</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusPro | Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <nav class="navbar">
-    <div class="logo">Campus<span>Pro</span></div>
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#registration">Registration</a></li>
-        <li><a href="#">Payment</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </ul>
+<nav class="navbar">
+<div class="logo">Campus<span>Pro</span></div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="registration.html">Registration</a></li>
+<li><a href="payment.html">Payment</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
 </nav>
 
-<div class="main-container">
-    <aside class="sidebar">
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#vision">Vision & Mission</a></li>
-            <li><a href="#facilities">Facilities</a></li>
-        </ul>
-    </aside>
+<div class="container">
 
-    <div class="content-wrapper">
-        <section id="home" class="hero-section">
-            <div class="hero-content">
-                <h1>Welcome to Our Campus</h1>
-                <p>Empowering the next generation of leaders.</p>
-                <a href="#registration" class="cta-button">Register Now</a>
-            </div>
-        </section>
-
-        <section id="registration" class="registration-section">
-            <h2>Student Registration</h2>
-            <form id="regForm">
-                <div class="profile-upload">
-                    <div class="image-placeholder" id="imagePreview">
-                        <span>📷</span>
-                    </div>
-                    <input type="file" id="imageInput" accept="image/*" hidden>
-                    <button type="button" onclick="document.getElementById('imageInput').click()">Upload Photo</button>
-                </div>
-
-                <div class="form-grid">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="text" placeholder="Name with Initials" required>
-                    <input type="date" title="Birthday" required>
-                    <input type="number" placeholder="Age" required>
-                    <input type="text" placeholder="School" required>
-                    <input type="text" placeholder="Address" required>
-                    <input type="text" placeholder="Home Town" required>
-                    <input type="tel" placeholder="Phone Number 1" required>
-                    <input type="tel" placeholder="Phone Number 2">
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-                <button type="submit" class="submit-btn">Submit Registration</button>
-            </form>
-        </section>
-    </div>
+<section class="hero">
+<div class="hero-text">
+<h1>Welcome to CampusPro</h1>
+<p>Empowering the next generation of leaders through innovation and education.</p>
 </div>
+</section>
+
+<section class="section">
+<h2>About Our Campus</h2>
+<p>
+CampusPro is a modern private campus focused on providing high-quality education
+in technology, business, and creative industries. Our mission is to develop
+skilled graduates who are ready for the global job market. We combine academic
+knowledge with practical industry experience.
+</p>
+</section>
+
+<section class="section">
+<h2>Vision & Mission</h2>
+
+<h3>Vision</h3>
+<p>
+To become a leading higher education institute that produces innovative,
+ethical and globally competitive professionals.
+</p>
+
+<h3>Mission</h3>
+<p>
+• Provide high quality education using modern technology.<br>
+• Develop students’ leadership, creativity and problem solving skills.<br>
+• Create industry partnerships to give students real world experience.
+</p>
+
+</section>
+
+<section class="section">
+<h2>Facilities</h2>
+
+<ul class="facilities">
+<li>Modern Computer Laboratories</li>
+<li>High Speed Internet Access</li>
+<li>Digital Library</li>
+<li>Student Activity Center</li>
+<li>Comfortable Lecture Halls</li>
+<li>Career Guidance and Internship Programs</li>
+</ul>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
